@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: Comfortaa;
+  src: url("./font/Comfortaa-Light.ttf");
+}
+body .start-header {
+  width: 100%;
+  background: rgba(13, 38, 40, 0.9);
+}
+body .start-header header {
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  max-width: 1200px;
+}
+body .start-header header .logo {
+  display: block;
+}
+body .start-header header .logo > a {
+  width: 60px;
+  height: 20px;
+}
+body .start-header header .nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+body .start-header header .nav > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+body .start-header header .nav > ul > li {
+  padding: 0 20px;
+  font-size: 0.9rem;
+  max-width: 180px;
+}
+body .start-header header #id > a {
+  display: block;
+  background-color: green;
+  color: honeydew;
+  padding-top: 20px;
+}
+body .base-top {
+  background-color: cadetblue;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 64px;
+}
+body .base-top > section {
+  margin: 0 auto;
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .base-top > section .img {
+  width: 100%;
+}
+body .base-top > section > h1 {
+  margin: 0 3rem;
+  max-width: 341px;
+  font-size: 3rem;
+}
+body .base-top > section .detail {
+  max-width: 560px;
+  width: 100%;
+  margin: 0 1rems;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  padding: 0.8rem;
+}
+body .base-top > section .detail .title {
+  background-color: black;
+  color: green;
+  text-align: center;
+  font-size: 1rem;
+}
+body .base-top > section .about {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body .base-top > section .about .number {
+  flex-shrink: 0;
+  width: 200px;
+}
+body .base-top > section .about .number > p {
+  font-size: 1rem;
+  color: white;
+}
+body .base-top > section .about .acount {
+  box-sizing: border-box;
+  max-width: 800px;
+  padding: 0.6rem;
+  width: 100%;
+}
+body .base-top > section .about .acount > p {
+  font-size: 0.6rem;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+body .base-top > section .about .acount > ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body .base-top > section .about .acount > ul > li {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  max-width: calc(720px / 4);
+  width: 100%;
+}
+body .messenger {
+  margin: 0 auto;
+  padding: 3rem 24px;
+}
+body .messenger > p {
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 20px;
+  line-height: 3rem;
+}
+body .base-whats {
+  background-color: #f2f2f2;
+}
+body .base-whats > section {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 40px;
+}
+body .base-whats > section > h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+body .base-whats > section > p {
+  text-align: center;
+  font-size: 1.2rem;
+}
